@@ -1,5 +1,5 @@
 .rec-and-time{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     background: rgb(129, 129, 129,.4);
