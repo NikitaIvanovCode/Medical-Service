@@ -1,0 +1,35 @@
+.header__nav-list{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 15;
+}
+
+.header__nav-item:hover{
+    color:rgb(79, 185, 255);
+}
+
+.active{
+    color:rgb(79, 185, 255);
+}
+
+@media(max-width:629px){
+    .header__nav-list{
+        width: auto;
+        display: block;
+        position: absolute;
+        top:62px;
+        left:-100%;
+        background: rgb(36, 36, 36);
+        padding:20px;
+        transition: .5s;
+    }
+
+    .show{       
+        left:0;
+    }
+
+    .header__nav-item{
+        line-height: 2;
+    }
+}

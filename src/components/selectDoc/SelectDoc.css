@@ -1,0 +1,36 @@
+
+.therapist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/therapist-bg.jpg');
+}
+
+.surgeon-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/surgeon-bg.jpg');
+}
+
+.allergist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/allergist-bg.jpg');
+}
+
+.cardiologist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/cardiologist-bg.jpg');
+}
+
+.dentist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/dentist-bg.jpg');
+}
+
+.dietologist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/dietologist-bg.jpg');
+}
+
+.ent-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/ent-bg.jpg');
+}
+
+.oculist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/oculist-bg.jpg');
+}
+
+.psichologist-bg{
+    background: linear-gradient(to top,rgba(29,29,29,.6),rgba(29,29,29,.6)),url('./img/psichologist-bg.jpg');
+}

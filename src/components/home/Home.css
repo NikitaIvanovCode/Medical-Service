@@ -1,0 +1,11 @@
+.home{
+    padding:15px;
+    background: rgb(232, 237, 243,.6);
+    border-radius: 7px;
+}
+
+@media(max-width:475px){
+    .home{
+        line-height: 1.2;
+    }
+}

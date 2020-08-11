@@ -1,0 +1,110 @@
+.doc{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid rgb(206, 206, 206);
+    border-radius: 7px;
+    padding:20px;
+    margin-bottom: 20px;
+    background: rgb(232, 237, 243,.6);
+}
+
+.doc__info{
+    width: 25%;
+    padding-right: 10px;
+}
+
+.doc__img{
+    margin-bottom: 12px;
+    border: 1px solid #c1c1c1;
+}
+
+.doc__name{
+    font-size: 18px;
+}
+
+.doc__date{
+    width: 75%;
+}
+
+.doc__date-title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.doc__date-list{
+    display: flex;
+    justify-content: center;
+}
+
+.doc__date-day{
+    text-align: center;
+    color:#fff;
+    background: rgb(212, 237, 253);
+    border-radius: 7px;
+    padding:10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor:pointer;
+    transition: .1s;
+    color:rgb(59, 59, 59)
+}
+
+.doc__date-day:last-child{
+    margin-right: 0;
+}
+
+.doc__date-day:hover{
+    background: rgb(190, 230, 255); 
+    color:rgb(0, 0, 0)
+}
+
+@media(max-width:894px){
+    .doc{
+        padding:10px;
+    }
+}
+
+@media(max-width:690px){
+    .doc{
+        padding:10px;
+    }
+}
+
+@media(max-width:639px){
+    .doc{
+        flex-direction: column;
+    }
+
+    .doc__info{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .doc__date{
+        width: 100%;
+    }
+}
+
+@media(max-width:475px){
+    .doc__date-list{
+        display: block;
+        text-align: center;
+    }
+
+
+
+    .doc__date-day{
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+@media(max-width:369px){
+    .doc__date-day{
+        width: 48%;
+    }
+}
+
+
+

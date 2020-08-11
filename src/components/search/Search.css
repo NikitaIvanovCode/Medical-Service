@@ -1,0 +1,30 @@
+.search{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.search__inp{
+    width: 300px;
+    padding:5px;
+}
+
+@media(max-width:959px){
+    .search{
+        text-align: center;
+    }
+
+    .search__inp{
+        width: 250px;
+    }
+}
+
+@media(max-width:539px){
+    .search__inp{
+        width: 300px;
+    }
+}
+
+@media(max-width:455px){
+    .search__inp{
+        width: 250px;
+    }
+}

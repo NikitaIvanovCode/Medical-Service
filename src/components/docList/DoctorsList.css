@@ -1,0 +1,41 @@
+.specialist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.therapist{
+    background:url('./img/therapist.jpg');
+}
+
+.surgeon{
+    background:url('./img/surgeon.jpg');
+}
+
+.dentist{
+    background:url('./img/dentist.jpg');
+}
+
+.oculist{
+    background:url('./img/oculist.jpg');
+}
+
+.psychologist{
+    background:url('./img/psychologist.jpg');
+}
+
+.cardiologist{
+    background:url('./img/cardiologist.jpg');
+}
+
+.dietologist{
+    background:url('./img/dietologist.jpg');
+}
+
+.ent{
+    background:url('./img/ent.jpg');
+}
+
+.allergist{
+    background:url('./img/allergist.jpg');
+}

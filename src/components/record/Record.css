@@ -1,0 +1,55 @@
+.record{
+    font-size: 22px;
+}
+
+.input{
+    padding: 5px;
+    text-align: center;
+}
+
+.record__item{
+    margin-bottom: 12px;
+}
+
+.record__item span{
+    color:rgb(84, 172, 255);
+}
+
+.record__form{
+    text-align: center;
+}
+
+.record__btn{
+    margin-right: 5px;
+    margin-top: 10px;
+    padding:5px;
+    background: rgb(112, 186, 255);
+    color:#fff;
+    border-radius: 5px;
+}
+
+.record__error{
+    color:rgb(184, 65, 65);
+}
+
+.record__btn:hover{
+    background: rgb(84, 172, 255);
+}
+
+@media(max-width:744px){
+    .record__btn{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:735px){
+    .record__item span{
+        display: block;
+    }
+}
+
+@media(max-width:639px){
+    .record{
+        font-size: 20px;
+    }
+}

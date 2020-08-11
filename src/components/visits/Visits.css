@@ -1,0 +1,20 @@
+.visits-item{
+    padding:15px;
+    border:1px solid #c2c2c2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    background: rgb(232, 237, 243,.6);
+}
+
+.nothing{
+    text-align: center;
+    font-size: 35px;
+    color:#c1c1c1;
+}
+
+@media(max-width:600px){
+    .visits-item{
+        font-size: 18px;
+    } 
+}

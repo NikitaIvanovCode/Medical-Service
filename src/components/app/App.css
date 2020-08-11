@@ -1,0 +1,15 @@
+.wrapp{
+    padding-top: 3px;
+    max-width: 960px;
+    margin:auto;
+}
+
+.main{
+    padding: 20px 10px 10px;
+} 
+
+@media(max-width:960px){
+    .wrapp{
+        padding-top: 0;
+    }
+}

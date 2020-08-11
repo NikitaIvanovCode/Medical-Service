@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 25px;
+    color:#fff;
+    background: rgb(36, 36, 36);
+    font-size: 20px;
+    border-radius: 7px;
+    z-index: 10;
+}
+
+.header__title{
+    font-size: 32px;
+    color:rgb(79, 185, 255);
+}
+
+.nav__btn{
+    display: none;
+}
+
+@media(max-width:960px){
+    .header{
+        border-radius: 0;
+    }
+}
+
+@media(max-width:629px){
+    .header{
+        border-radius: 0;
+    }
+
+    .header__title{
+        font-size: 28px;
+    }
+
+    .nav__btn{
+        display: block;
+    }
+}
+
+
+
